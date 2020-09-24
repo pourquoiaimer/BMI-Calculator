@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="scss/all.css">
+
+
+    <title>js最終作業-BMI計算器--未做RWD</title>
+</head>
+
+<body>
+    <div class="calculationArea">
+        <div class="BMI-logo">
+            <img src="images/BMICLogo.png" alt="BMI-logo">
+        </div>
+        <div class="calculation">
+            <label class="infoTitle">身高 cm
+                <input type="text" class="inputArea heightInfo" placeholder="請輸入身高">
+            </label>
+            <label class="infoTitle">體重 kg
+                <input type="text" class="inputArea weightInfo" placeholder="請輸入體重">
+            </label>
+        </div>
+        <div class="result">
+            <a href="javascript:;" class="getResult">看結果</a>
+            <div class="showResult" style="display: none;">
+                <p><span class="result-BMINum">20.9</span><br>BMI</p>
+                <i class="material-icons backBtn">loop</i>
+                <span class="resultText">重度肥胖</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="record-area">
+        <h2 class="recordTitle">BMI 紀錄</h2>
+        <div class="record">
+        </div>
+    </div>
+    <div class="footer">
+        <img src="images/BMICLogob.png" alt="BMI-logo" class="footer-logo">
+    </div>
+
+
+    <script src="javascript/all.js"></script>
+</body>
+
+</html>
