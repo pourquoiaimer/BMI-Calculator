@@ -104,7 +104,7 @@ function cheakBMI() {
         height: height,
         date:getDate()
     };
-    data.unshift(newData);
+    data.push(newData);
     localStorage.setItem('data', JSON.stringify(data));
     upallData(data);
 }
