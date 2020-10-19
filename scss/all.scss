@@ -12,6 +12,7 @@ $color-b:#424242;
 
 //上方輸入區
 .calculationArea {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,4 +193,29 @@ $color-b:#424242;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.warning{
+    font-size: 18px;
+    color: red;
+}
+.cleanAll{
+    border-radius: 50%;
+    padding: 30px 5px;
+    font-size: 16px;
+    color: $color-y;
+    background-color:rgb(151, 76, 76);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+    .cleanAll:hover{
+        background-color:black;
+        color: red;
+    }
+}
+.cleanAll:hover{
+    background-color:rgb(139, 30, 30);
+    color: white;
 }

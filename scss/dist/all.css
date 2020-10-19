@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -62,47 +62,31 @@ img {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .calculationArea {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   max-width: 1024px;
   height: 300px;
   margin: 0 auto;
   background-color: #424242;
 }
-
 .calculationArea .BMI-logo {
   margin-right: 97px;
 }
-
 .calculationArea .calculation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 250px;
   margin-right: 53px;
 }
-
 .calculationArea .calculation .infoTitle {
   color: #ffd366;
 }
-
 .calculationArea .calculation .inputArea {
   width: 100%;
   height: 40px;
@@ -118,7 +102,6 @@ img {
 .result {
   position: relative;
 }
-
 .result .getResult {
   display: block;
   height: 120px;
@@ -132,22 +115,14 @@ img {
   text-decoration: none;
   font-size: 24px;
 }
-
 .result .getResult:hover {
   background-color: #f3c80a;
 }
 
 .showResult {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -158,7 +133,6 @@ img {
   text-decoration: none;
   cursor: auto;
 }
-
 .showResult .backBtn {
   position: absolute;
   background-color: var(--change-color);
@@ -169,26 +143,19 @@ img {
   bottom: 5px;
   z-index: 1;
   cursor: pointer;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
-
 .showResult .backBtn:hover {
-  -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
-  -webkit-transition: all 1s;
+  transform: scale(1.5, 1.5);
   transition: all 1s;
 }
-
 .showResult .result-BMINum {
   font-size: 32px;
 }
-
 .showResult p {
   font-size: 14px;
   margin-top: 10px;
 }
-
 .showResult .resultText {
   position: absolute;
   font-size: 32px;
@@ -205,18 +172,10 @@ img {
   padding-top: 48px;
   padding-bottom: 58px;
   background-color: rgba(226, 225, 225, 0.5);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .record-area .recordTitle {
   font-size: 24px;
   text-align: center;
@@ -227,41 +186,29 @@ img {
   background-color: white;
   width: 624px;
   height: 62px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 16px;
 }
-
 .recordText .recordTextTitle {
   font-size: 12px;
   font-family: "AppleSystemUIFont";
   color: #424242;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   min-width: 130px;
   letter-spacing: 1.5px;
 }
-
 .recordText .recordLevel {
   margin-left: 14px;
   min-width: 110px;
 }
-
 .recordText span {
   font-family: ".SFNSDisplay";
   font-size: 20px;
   color: #4A4A4A;
   margin-left: 7px;
 }
-
 .recordText .recordDate {
   font-size: 12px;
   font-family: "SFNStext";
@@ -270,7 +217,6 @@ img {
   margin-left: auto;
   margin-right: 10px;
 }
-
 .recordText .remove {
   color: grey;
   margin-right: 10px;
@@ -282,15 +228,9 @@ img {
   margin: 0 auto;
   height: 90px;
   background-color: #ffd366;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .warning {
@@ -310,7 +250,6 @@ img {
   text-decoration: none;
   cursor: pointer;
 }
-
 .cleanAll .cleanAll:hover {
   background-color: black;
   color: red;
