@@ -1,5 +1,5 @@
 # BMI-Calculator BMI計算器 
-## 六角學院 javascrpt入門篇 最終作業之一
+六角學院-javascrpt入門篇-最終作業之一
 
 ### 網頁呈現
   <https://pourquoiaimer.github.io/BMI-Calculator/>
